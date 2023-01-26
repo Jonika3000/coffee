@@ -239,7 +239,7 @@ input[type="checkbox"] {
 .left-div a img {
     cursor: pointer;
     width: 25px;
-    margin: 0px 10px;
+    margin: 0px 15px;
     position: relative;
     top: calc(50% - 1px);
 }
