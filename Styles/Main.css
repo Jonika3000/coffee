@@ -281,9 +281,9 @@ input[type="checkbox"] {
 }
 
 .middleMain {
-    width: 800px;
+    width: 900px;
     height: 500px;
-    top: 15%;
+    top: 20%;
     display: flex;
     flex-flow: column wrap;
     margin: auto;
@@ -292,7 +292,7 @@ input[type="checkbox"] {
 }
 .middleText{
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px; 
     font-size: 74px;
     font-family: 'Oswald', sans-serif;
 }
