@@ -298,12 +298,14 @@ input[type="checkbox"] {
 }
 
 .middleText a {
+    color: #252525;
     font-size: 74px;
     font-family: 'Oswald', sans-serif;
 }
 
 .middleSmallText {
     margin: 0 auto;
+    color: #252525;
     font-size: 21px;
     font-weight: 400;
     font-family: 'Merriweather', serif;
@@ -320,8 +322,8 @@ input[type="checkbox"] {
 }
 
 .middleButton {
-    border: 3px solid black;
-    color: black;
+    border: 3px solid #252525;
+    color: #252525;
     background-color: transparent;
     width: 200px;
     height: 50px;
@@ -337,93 +339,22 @@ input[type="checkbox"] {
 .middleButton:hover {
     cursor: pointer;
     color: white;
-    background-color: black;
+    background-color: #252525;
 }
+/*end middle head */
 
-@media screen and (max-width: 1024px) {
-    .middleText a {
-        font-size: 64px;
-    }
+/* middle body */
+.middleBody{
+    width: 100%;
+    height: 500px;
 }
+.Hours{
+    border: 2px solid #252525;
+    width: 40%;
+    background-image: url("Images/hoursBack.jpg");
+    height: 100px;
 
-@media screen and (max-width: 950px) {
-    .middleText a {
-        font-size: 44px;
-    }
-
-    .middleButton {
-        font-size: 14px;
-    }
-
-    .middleImageCoffee {
-        width: 30px;
-    }
 }
-
-@media screen and (max-width: 650px) {
-    .middleImageCoffee {
-        width: 20px;
-    }
-
-    .middleText a {
-        font-size: 34px;
-    }
-
-    .middleButton {
-        font-size: 10px;
-        width: 150px;
-        height: 35px;
-    }
-
-    .middleSmallText {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .middleText a {
-        font-size: 24px;
-    }
-
-    .middleSmallText {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .middleText a {
-        font-size: 24px;
-    }
-
-    .middleImageCoffee {
-        width: 15px;
-    }
-
-    .middleSmallText {
-        font-size: 10px;
-    }
-
-    .middleButton {
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .middleText a {
-        font-size: 14px;
-    }
-
-    .middleImageCoffee {
-        width: 10px;
-    }
-
-    .middleButton {
-        font-size: 5px;
-        width: 100px;
-        height: 25px;
-    }
-}
-
 .tmp {
     height: 8000px;
 }
