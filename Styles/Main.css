@@ -269,7 +269,7 @@ input[type="checkbox"] {
     background-position: center center;
     background-size: cover;
     position: relative;
-    height: 800px;
+    height: 910px;
     width: 100%;
 }
 
@@ -341,21 +341,47 @@ input[type="checkbox"] {
     color: white;
     background-color: #252525;
 }
+
 /*end middle head */
 
 /* middle body */
-.middleBody{
+.middleBody {
     width: 100%;
     height: 500px;
 }
-.Hours{
+
+.Hours {
     border: 3px solid #252525;
     width: 50%;
     margin: 0 auto;
     background-image: url("Images/hoursBack.jpg");
     height: 400px;
-
 }
+
+.textBody {
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #252525;
+}
+
+.textBody:before,
+.textBody:after {
+    content: "";
+    color: #252525;
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+
+.textBody:after {
+    margin: 0 -55% 0 .5em;
+}
+
 .tmp {
     height: 8000px;
 }
